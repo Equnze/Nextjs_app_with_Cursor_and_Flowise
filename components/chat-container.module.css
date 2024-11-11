@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #0c141f;
+  border: 1px solid #00f0ff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.messagesContainer {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.messagesContainer::-webkit-scrollbar {
+  width: 6px;
+}
+
+.messagesContainer::-webkit-scrollbar-track {
+  background: #0c141f;
+}
+
+.messagesContainer::-webkit-scrollbar-thumb {
+  background: #00f0ff;
+  border-radius: 3px;
+} 

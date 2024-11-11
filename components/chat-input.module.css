@@ -1,0 +1,42 @@
+.inputContainer {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #0c141f;
+  border-top: 1px solid #00f0ff;
+}
+
+.input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #00f0ff;
+  border-radius: 4px;
+  background-color: rgba(0, 240, 255, 0.1);
+  color: #fff;
+  font-size: 1rem;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #00f0ff;
+}
+
+.sendButton {
+  padding: 0.75rem 1.5rem;
+  background-color: transparent;
+  border: 1px solid #00f0ff;
+  color: #00f0ff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sendButton:hover:not(:disabled) {
+  background-color: rgba(0, 240, 255, 0.2);
+  box-shadow: 0 0 15px #00f0ff;
+}
+
+.sendButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+} 

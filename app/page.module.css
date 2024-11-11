@@ -1,0 +1,22 @@
+.main {
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.chatWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 80vh;
+}
+
+.title {
+  text-align: center;
+  color: #00f0ff;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px #00f0ff;
+} 
